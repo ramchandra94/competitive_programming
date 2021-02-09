@@ -1,0 +1,8 @@
+say we have an array {1, 2}
+if we append the array to itself k times what is the maximum sub array sum
+
+constraint is 
+array length N <= 10^5
+k <= 10^5
+and the constraint is N*K <= 10^5
+so in summary we cannot create the array by actually appending them.

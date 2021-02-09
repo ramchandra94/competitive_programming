@@ -1,0 +1,5 @@
+given an array find the maximum product of a subarray
+
+ex: 6 -3 -10 0 2
+
+ans = 180 i.e. 6*-3*-10
