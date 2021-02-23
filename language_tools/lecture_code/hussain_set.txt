@@ -1,0 +1,30 @@
+say there are 4 elements and 6 queries
+
+8 5 3 1
+1
+2
+3
+4
+6
+8
+
+at every query we need to divide the maximum element in the
+array by 2. after dividing if it is greater than 0 we insert the
+quotient back into the array
+
+so first 8 is max, 8/2 = 4 > 0 so insert back we need to print 8 and move on
+now array is 4 5 3 1
+
+now the max is 5, 5/2 = 2 > 0 insert back print 5
+now array is 4 2 3 1
+
+max is 4, 4/2 = 2 >0, print 4
+now array is 2 2 3 1 
+
+max is 3, 3/2 = 1, print 3
+now array is 2 2 1 1
+
+max is 2, 2/2 = 1 print 2
+now array is 1 2 1 1
+
+max is 2 
