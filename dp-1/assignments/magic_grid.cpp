@@ -1,3 +1,4 @@
+// similar to https://leetcode.com/problems/dungeon-game/
 int getMinimumStrength(int** grid, int n, int m) {
 	// Write your code here
     int **dp = new int*[n];
